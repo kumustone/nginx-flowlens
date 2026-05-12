@@ -1,0 +1,31 @@
+# Build artifacts
+CLAUDE.md
+nginx/
+docs/
+objs/
+*.o
+*.so
+*.a
+
+# Runtime directories
+.nginx-dev/
+.nginx-test/
+dumps/
+logs/
+
+# Generated files
+*.log
+*.pcap
+
+# Editor
+*.swp
+*.swo
+*~
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/

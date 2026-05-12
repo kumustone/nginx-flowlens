@@ -1,0 +1,10 @@
+ngx_addon_name=ngx_http_flowlens_module
+
+HTTP_FILTER_MODULES="$HTTP_FILTER_MODULES ngx_http_flowlens_module"
+NGX_ADDON_SRCS="$NGX_ADDON_SRCS $ngx_addon_dir/ngx_http_flowlens_module.c"
+NGX_ADDON_SRCS="$NGX_ADDON_SRCS $ngx_addon_dir/ngx_http_flowlens_util.c"
+NGX_ADDON_SRCS="$NGX_ADDON_SRCS $ngx_addon_dir/ngx_http_flowlens_tlv.c"
+NGX_ADDON_SRCS="$NGX_ADDON_SRCS $ngx_addon_dir/ngx_http_flowlens_json.cpp"
+NGX_ADDON_DEPS="$NGX_ADDON_DEPS $ngx_addon_dir/third_party/json.hpp"
+
+CORE_LIBS="$CORE_LIBS -lstdc++"
