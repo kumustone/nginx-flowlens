@@ -268,8 +268,6 @@ cd test && ./test.sh        # functional tests
 cd benchmark && ./benchmark.sh
 ```
 
-See [CLAUDE.md](CLAUDE.md) for development conventions and project layout.
-
 ---
 
 ## License

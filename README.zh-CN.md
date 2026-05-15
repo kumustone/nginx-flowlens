@@ -268,8 +268,6 @@ cd test && ./test.sh        # 功能测试
 cd benchmark && ./benchmark.sh
 ```
 
-开发规范和项目结构见 [CLAUDE.md](CLAUDE.md)。
-
 ---
 
 ## 开源协议
