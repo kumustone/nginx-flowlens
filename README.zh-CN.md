@@ -181,7 +181,7 @@ python3 tools/tlv2json.py -i inspect.log -o - | jq '.request.method'
 - `inspect_max_body_size` 分别限制请求体和响应体
 - 落盘白名单：`text/*`、`application/xml`、MS Office 格式、`application/pdf`
 - 落盘文件：`{req|resp}_{seq}_{YYYYMMDD_HHMMSS}_{filename}` 存于 `inspect_dump_path`
-- `inspect off` 完全绕过模块（~0.4% 开销）
+- `inspect off` 完全绕过模块（~1% 开销）
 
 ---
 

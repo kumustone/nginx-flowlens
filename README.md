@@ -181,7 +181,7 @@ python3 tools/tlv2json.py -i inspect.log -o - | jq '.request.method'
 - `inspect_max_body_size` caps both request and response bodies independently
 - Body dump whitelist: `text/*`, `application/xml`, MS Office formats, `application/pdf`
 - Dump files: `{req|resp}_{seq}_{YYYYMMDD_HHMMSS}_{filename}` under `inspect_dump_path`
-- `inspect off` completely bypasses the module (~0.4% overhead)
+- `inspect off` completely bypasses the module (~1% overhead)
 
 ---
 
