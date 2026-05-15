@@ -79,7 +79,7 @@ Note: The "inspect-off" overhead (~7.5%) is primarily from the module's filter c
 | inspect-on (tlv) | ~400 | ~240ms | **~94%** |
 | inspect-on (json) | ~95 | ~1.0s | **~98.5%** |
 
-**Note:** Large-file overhead comes from body buffering (1MB per request under `-c100`). In production, use `inspect_max_body_size` and `inspect_dump` to mitigate this. See [docs/performance.md](../docs/performance.md) for details.
+**Note:** Large-file overhead comes from body buffering (1MB per request under `-c100`). In production, use `inspect_max_body_size` and `inspect_dump` to mitigate this. See the Performance section in README.md for a summary.
 
 ### Linux x86_64 Comparison (openEuler 22.03, GCC 10.3.1)
 
